@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OchoPuzzle</string>
+    <string name="appTitle">OCHO PUZZLE</string>
+    <string name="playerO">REINICIAR JUEGO</string>
+    <string name="Restart">DESORDENAR</string>
+    <string name="Verificar">VERIFICAR</string>
+    <string name="Reiniciar">REINICIAR</string>
+    <string name="Desordenar">DESORDENAR</string>
+    <string name="ReiniciarJuego">REINICIAR JUEGO</string>
+</resources>
