@@ -18,7 +18,6 @@
         android:id="@+id/GRLTablero"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="@dimen/marginTop"
         android:layout_below="@id/TXVTitle"
         android:layout_centerHorizontal="true"
@@ -157,11 +156,26 @@
             />
 
     </GridLayout>
+    <TextView
+        android:id="@+id/TXVMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GRLTablero"
+        android:text="@string/Mensaje"
+        android:textSize="@dimen/textSizeNormal"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/marginTop"
+        android:textColor="@color/black"
+        android:visibility="visible"
+        >
+    </TextView>
+
     <Button
         android:id="@+id/BTNReboot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/GRLTablero"
+        android:layout_below="@id/TXVMensaje"
         android:layout_centerHorizontal="true"
         android:text="@string/ReiniciarJuego"
         android:layout_marginTop="@dimen/marginTop"
