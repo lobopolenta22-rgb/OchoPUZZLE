@@ -157,7 +157,7 @@
 
     </GridLayout>
     <TextView
-        android:id="@+id/TXVMensaje"
+        android:id="@+id/TXVMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/GRLTablero"
@@ -175,7 +175,7 @@
         android:id="@+id/BTNReboot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/TXVMensaje"
+        android:layout_below="@id/TXVMessage"
         android:layout_centerHorizontal="true"
         android:text="@string/ReiniciarJuego"
         android:layout_marginTop="@dimen/marginTop"
